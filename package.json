@@ -1,0 +1,30 @@
+{
+  "name": "datree-azure",
+  "version": "0.0.1",
+  "description": "Serverless Web Template for Azure Functions",
+  "main": "handler.js",
+  "keywords": ["azure", "serverless"],
+  "scripts": {
+    "test": "exit 0",
+    "dev": "serverless offline start",
+    "deploy-dev": "serverless deploy -s dev -v",
+    "deploy-prod": "serverless deploy -s prod -v"
+  },
+  "author": "Shimon Tolts <shimon@datree.io>",
+  "license": "MIT",
+  "repository": {
+    "type": "git"
+  },
+  "devDependencies": {
+    "serverless-azure-functions": "*"
+  },
+  "dependencies": {
+    "azure-function-express": "^1.3.0",
+    "express": "^4.16.2"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 120
+  }
+}
