@@ -7,8 +7,7 @@
   "scripts": {
     "test": "exit 0",
     "dev": "serverless offline start",
-    "deploy-dev": "serverless deploy -s dev -v",
-    "deploy-prod": "serverless deploy -s prod -v"
+    "deploy": "serverless deploy -v"
   },
   "author": "Shimon Tolts <shimon@datree.io>",
   "license": "MIT",
