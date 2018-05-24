@@ -1,5 +1,7 @@
 # Serverless Web Template
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/datreeio/serverless-web-template-azure.svg)](https://greenkeeper.io/)
+
 * [Node.js](https://nodejs.org/) version 6.11.2 (Azure Functions)
 * [Express](https://expressjs.com/)
 * [Express for Azure Functions](https://github.com/yvele/azure-function-express)
